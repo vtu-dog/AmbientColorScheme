@@ -1,0 +1,32 @@
+{
+    /*
+        Change this to `true` to disable program execution
+    */
+    "disabled": false,
+
+    /*
+        Change this to your favourite light theme's name
+    */
+    "light_color_scheme": "Celeste.sublime-color-scheme",
+
+    /*
+        Change this to your favourite dark theme's name
+    */
+    "dark_color_scheme": "Monokai.sublime-color-scheme",
+
+    /*
+        The light sensor readings threshold for dark theme
+    */
+    "threshold": 400,
+
+    /*
+        Amount of seconds between each sensor update
+    */
+    "refresh_rate": 1.0,
+
+    /*
+        How many times a sensor check will be skipped after changing a theme
+        (prevents rapid changes when balancing on the sensor threshold)
+    */
+    "cycle_timeout": 2
+}
