@@ -7,7 +7,7 @@ I was tired of switching between Sublime's color schemes while working in differ
 
 ## Compatibility
 
-The plugin will only work on Macbooks running MacOS, as the light sensor code included in the project as a shared library uses OSX-specific calls. If you know of a way to support other LMUs and are willing to test the changes, GitHub issues and pull requests are greatly appreciated!
+The plugin will only work on Macbooks running macOS, as the light sensor code included in the project as a shared library uses OSX-specific calls. If you know of a way to support other LMUs and are willing to test the changes, GitHub issues and pull requests are greatly appreciated!
 
 ## Developer info
 
@@ -19,4 +19,4 @@ $ clang -shared -framework IOKit -o lmulib.so lmu.o
 
 ## Additional info
 
-The project was tested on macOS 10.14.5 Mojave and Sublime Text version 3.2.1, build 3207.
+The project was tested on a MacBook Pro (Early 2015) running macOS 10.14.5 Mojave and Sublime Text version 3.2.1, build 3207.
